@@ -23,7 +23,9 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Links
 
--[Solution URL: ](https://github.com/iftkhr/stats-preview-card) -[Live Site URL: ](https://iftkhr.github.io/stats-preview-card)
+-[Solution URL](https://github.com/iftkhr/stats-preview-card)
+
+-[Live Site URL](https://iftkhr.github.io/stats-preview-card)
 
 ## My process
 
