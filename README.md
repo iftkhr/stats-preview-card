@@ -9,7 +9,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
     -   [Links](#links)
 -   [My process](#my-process)
     -   [Built with](#built-with)
-    -   [What new I learned](#what-new-i-learned)
+    -   [New thing I learned](#what-new-i-learned)
     -   [Useful resources](#useful-resources)
 -   [Author](#author)
 
@@ -34,7 +34,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 -   CSS Grid
 -   Mobile-first workflow
 
-### What new I learned
+### New thing I learned
 
 CSS's mix-blend-property, blended the image with its parent div background!
 
