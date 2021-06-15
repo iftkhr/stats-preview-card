@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+body {
+	background: #090b1a;
+	margin: auto;
+	color: hsl(0, 0%, 100%);
+	font-size: 15px;
+}
+.main {
+	display: grid;
+	background: hsl(244, 38%, 16%);
+	justify-content: center;
+	align-content: center;
+	width: 85%;
+	margin: 15% auto;
+	border-radius: 10px;
+}
+.content h1 {
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+}
+.content p {
+	font-family: 'Inter', sans-serif;
+	color: hsla(0, 0%, 100%, 0.75);
+	font-size: 1rem;
+	line-height: 25px;
+}
+.content {
+	text-align: center;
+	padding: 6%;
+}
+.image {
+	background: hsl(277, 64%, 61%);
+	border-radius: 10px 10px 0 0;
+}
+.insights {
+	color: hsl(277, 64%, 61%);
+}
+img {
+	width: 100%;
+	height: 100%;
+	mix-blend-mode: soft-light;
+}
+#desktop-img {
+	display: none;
+}
+.stats {
+	display: grid;
+	justify-content: center;
+	text-align: center;
+	margin: 1%;
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+}
+.numbers {
+	margin-bottom: 10%;
+	color: hsl(0, 0%, 100%);
+	font-size: 1.5rem;
+}
+.text {
+	font-weight: 400;
+	margin-bottom: 25%;
+	color: hsla(0, 0%, 100%, 0.6);
+}
+.attribution {
+	text-align: center;
+	font-size: 0.75rem;
+	font-family: 'Lexend Deca', sans-serif;
+}
+a {
+	color: hsl(277, 64%, 61%);
+}
+
+@media all and (min-width: 1440px) {
+	.main {
+		grid-template-columns: repeat(2, 50%);
+	}
+	#desktop-img {
+		display: block;
+	}
+	#mobile-img {
+		display: none;
+	}
+	.image {
+		grid-column: 2;
+		grid-row: 1/3;
+        border-radius: 0 10px 10px 0;
+	}
+	.content {
+		grid-column: 1;
+		grid-row: 1;
+		text-align: left;
+		padding: 10%;
+		font-size: 1.2rem;
+	}
+	.content p {
+		font-size: 1.2rem;
+		margin-top: 5%;
+		padding-bottom: -100%;
+	}
+	.stats {
+		grid-template-columns: repeat(3, auto);
+		align-items: baseline;
+		grid-column-gap: 40%;
+		text-align: left;
+		justify-self: left;
+		padding: 0 25%;
+		margin-bottom: 5%;
+	}
+	.numbers {
+		grid-row: 1;
+		margin-bottom: -10%;
+	}
+}
