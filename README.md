@@ -17,9 +17,9 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Screenshot
 
-![-Desktop Screenshot:](./ss_desktop.png)
+![-Desktop Screenshot:](./image/ss_desktop.png)
 
-![-Mobile Screenshot:](./ss_mobile.png)
+![-Mobile Screenshot:](../image/ss_mobile.png)
 
 ### Links
 
